@@ -9,7 +9,7 @@ public class Main {
 
         /*System.out.println("\nO jogo pesquisado é " + nome + " e ele leva" +
                 " em media 40 horas para ser terminado, seu genero é " + genero);*/
-        Scanner entrada_usuario = new Scanner(System.in);
+        /*Scanner entrada_usuario = new Scanner(System.in);
 
         System.out.println("Qual seu jogo preferido?");
 
@@ -24,11 +24,28 @@ public class Main {
         horas = entrada_usuario.nextInt();
 
         System.out.println("Então você gosta de jogos "+ genero + ", e levou " + horas + " horas para terminar "
-                + jogo_nome + ". Aposto que se divertiu muito!");
+                + jogo_nome + ". Aposto que se divertiu muito!"); */
 
-        int n1 = 10, n2 = 20;
+        int n1, n2;
 
-        System.out.println(n1 + n2);
+        //System.out.println(n1 + n2);
+        Scanner entrada_user = new Scanner(System.in);
+
+        System.out.print("Informe o primeiro numero: ");
+        n1 = entrada_user.nextInt();
+
+        System.out.print("Informe o segundo numero: ");
+        n2 = entrada_user.nextInt();
+
+        if(n1 > n2){
+            System.out.println("De fato " + n1 + " é maior que " + n2);
+        }
+        else if(n2 > n1) {
+            System.out.println("De fato " + n2 + " é maior que " + n1);
+        }
+        else{
+            System.out.println("Empate!");
+        }
 
     }
 }
