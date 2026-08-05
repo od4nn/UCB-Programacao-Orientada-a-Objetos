@@ -1,3 +1,5 @@
+package condicionais;
+
 import java.util.Scanner;
 
 public class Main {
