@@ -1,4 +1,4 @@
-package condicionais;
+package pratica.condicionais;
 
 import java.util.Scanner;
 

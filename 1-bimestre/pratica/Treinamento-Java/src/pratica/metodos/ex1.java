@@ -1,6 +1,4 @@
-package metodos;
-
-import java.util.Scanner;
+package pratica.metodos;
 
 public class ex1 {
     public static void main(String[] args) {
